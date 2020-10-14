@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         greenColor.alpha = 0.3
         startButton.layer.cornerRadius = 10
     }
+    
+    @IBAction func
+    startButtonPressed() {
+    }
 }
+
 
 

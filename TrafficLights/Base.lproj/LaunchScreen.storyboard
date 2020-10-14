@@ -16,36 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-dV-L82">
-                                <rect key="frame" x="132" y="77" width="150" height="562"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9z-97-fzH">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WgL-SJ-2AR">
-                                        <rect key="frame" x="0.0" y="206" width="150" height="150"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hi7-FS-G9T">
-                                        <rect key="frame" x="0.0" y="412" width="150" height="150"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="WgL-SJ-2AR" firstAttribute="centerY" secondItem="vMG-dV-L82" secondAttribute="centerY" id="6S2-zt-9bw"/>
-                                    <constraint firstAttribute="width" constant="150" id="PHg-oz-AlY"/>
-                                    <constraint firstAttribute="height" constant="562" id="Xgn-Mj-8Fl"/>
-                                    <constraint firstItem="WgL-SJ-2AR" firstAttribute="top" secondItem="vMG-dV-L82" secondAttribute="top" constant="206" id="bs4-bZ-IZZ"/>
-                                    <constraint firstItem="Hi7-FS-G9T" firstAttribute="centerX" secondItem="vMG-dV-L82" secondAttribute="centerX" id="pc5-sl-NtJ"/>
-                                </constraints>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Traffic Light" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cmV-bw-CkG">
+                                <rect key="frame" x="87" y="420.66666666666669" width="240" height="55"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vMG-dV-L82" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="8X8-1t-EhD"/>
-                            <constraint firstItem="vMG-dV-L82" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wj7-0S-s60"/>
+                            <constraint firstItem="cmV-bw-CkG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DZq-9f-2eS"/>
+                            <constraint firstItem="cmV-bw-CkG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="a1Q-Wl-Hly"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -55,14 +38,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
